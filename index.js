@@ -36,14 +36,12 @@ function viewCart() {
       // console.log(`${Object.keys(cart[0])[0]} at $${cart[0][Object.keys(cart[0])[0]]}.`)
     } else if (cart.length === 2) {
       var key = Object.keys(cart[i])[0]
-      
+
       if (i === 0) {
         string += `${key} at $${cart[i][key]} and `
       } else {
         string += `${key} at $${cart[i][key]}.`
       }
-      // console.log(`In your cart, you have ${key} at $${cart[i][key]}.`)
-      // console.log(`In your cart, you have ${Object.keys(cart[0])[0]} at $${cart[0][Object.keys(cart[0])[0]]} and ${Object.keys(cart[1])[0]} at $${cart[1][Object.keys(cart[1])[0]]}.`)
     } else {
       // it would add to the string each time!
       
