@@ -47,6 +47,7 @@ function viewCart() {
       if (i !== line.length - 1) {
         string += `${key} at $${cart[i][key]}, `
       } else {
+        string += `and ${key} at $${cart[i][key]}.`
 
       }
 
