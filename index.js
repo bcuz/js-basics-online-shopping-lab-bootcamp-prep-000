@@ -15,6 +15,8 @@ function addToCart(item) {
 
  cart.push({[item]: rand})
 
+ console.log(`${item} has been added to your cart.`)
+
 }
 
 function viewCart() {
