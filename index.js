@@ -23,6 +23,10 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   // https://github.com/bcuz/js-deli-counter-bootcamp-prep-000/blob/master/index.js
+
+  if (cart.length === 0) {
+    return 'Your shopping cart is empty.'
+  }
 }
 
 function total() {
