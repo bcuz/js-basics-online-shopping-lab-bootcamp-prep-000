@@ -37,7 +37,7 @@ function viewCart() {
     } else {
 
     }
-  }
+  // }
 
   }
 }
