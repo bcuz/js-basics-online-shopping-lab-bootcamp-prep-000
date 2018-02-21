@@ -43,6 +43,8 @@ function viewCart() {
         string += `${key} at $${cart[i][key]}.`
       }
     } else {
+      var key = Object.keys(cart[i])[0]
+      
       // it would add to the string each time!
       if (i !== cart.length - 1) {
         string += `${key} at $${cart[i][key]}, `
