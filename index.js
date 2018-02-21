@@ -45,9 +45,9 @@ function viewCart() {
     } else {
       // it would add to the string each time!
       if (i !== line.length - 1) {
-
+        string += `${key} at $${cart[i][key]}, `
       } else {
-        
+
       }
 
     }
