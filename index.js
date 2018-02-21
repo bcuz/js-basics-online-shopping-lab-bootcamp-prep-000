@@ -44,7 +44,12 @@ function viewCart() {
       }
     } else {
       // it would add to the string each time!
-      
+      if (i !== line.length - 1) {
+
+      } else {
+        
+      }
+
     }
   }
   console.log(string)
