@@ -88,6 +88,6 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
-addToCart("yams");
-console.log(cart)
-console.log(removeFromCart("yams").length);
+// addToCart("yams");
+// console.log(cart)
+// console.log(removeFromCart("yams").length);
