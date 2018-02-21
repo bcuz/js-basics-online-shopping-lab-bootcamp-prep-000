@@ -29,9 +29,9 @@ function viewCart() {
   } else {
 
     for (var i = 0; i < cart.length; i++) {
-    var key = Object.keys(cart[i])[0]
+    var key =
      if (cart.length === 1) {
-      console.log(`In your cart, you have ${key} at $${cart[0][key]}.`)
+      console.log(`In your cart, you have ${Object.keys(cart[i])[0]} at $${cart[0][key]}.`)
     } else if (cart.length === 2) {
       console.log(`In your cart, you have ${key} at $${cart[i][key]}.`)
     } else {
