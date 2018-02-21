@@ -31,11 +31,11 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
 
      if (cart.length === 1) {
-      console.log(`In your cart, you have ${Object.keys(cart[i])} at $17.`)
+      console.log(`In your cart, you have ${Object.keys(cart[i][0])} at $17.`)
     } else if (cart.length === 2) {
 
     } else {
-      
+
     }
   }
 
