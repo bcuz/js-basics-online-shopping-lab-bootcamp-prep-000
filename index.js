@@ -39,7 +39,7 @@ function viewCart() {
     } else {
 
     }
-  }
+  // }
 
   }
 }
