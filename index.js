@@ -89,4 +89,4 @@ function placeOrder(cardNumber) {
 }
 addToCart("yams");
 console.log(cart)
-console.log(removeFromCart("yams"));
+console.log(removeFromCart("yams").length);
