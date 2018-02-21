@@ -31,7 +31,7 @@ function viewCart() {
     // for (var i = 0; i < cart.length; i++) {
     // var key =
      if (cart.length === 1) {
-      console.log(`In your cart, you have ${Object.keys(cart[0])[0]} at $${cart[0][key]}.`)
+      console.log(`In your cart, you have ${Object.keys(cart[0])[0]} at $${cart[0][Object.keys(cart[0])[0]]}.`)
     } else if (cart.length === 2) {
       console.log(`In your cart, you have ${key} at $${cart[i][key]}.`)
     } else {
