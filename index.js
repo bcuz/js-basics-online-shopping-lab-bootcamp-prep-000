@@ -28,7 +28,7 @@ function viewCart() {
     console.log('Your shopping cart is empty.')
   } else {
 
-    for (var i = 0; i < cart.length; i++) {
+    // for (var i = 0; i < cart.length; i++) {
     // var key =
      if (cart.length === 1) {
       console.log(`In your cart, you have ${Object.keys(cart[i])[0]} at $${cart[0][key]}.`)
