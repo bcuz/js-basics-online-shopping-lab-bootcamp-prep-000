@@ -28,7 +28,7 @@ function viewCart() {
     console.log('Your shopping cart is empty.')
   } else {
 
-    for (var i = 0; i < cart.length; i++) {
+    // for (var i = 0; i < cart.length; i++) {
     var key = Object.keys(cart[i])[0]
      if (cart.length === 1) {
       //  
@@ -38,7 +38,7 @@ function viewCart() {
     } else {
 
     }
-  }
+  // }
 
   }
 }
