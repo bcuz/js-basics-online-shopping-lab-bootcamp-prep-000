@@ -41,6 +41,7 @@ function viewCart() {
       // it would add to the string each time!
     }
   }
+  console.log(string)
 
   }
 }
