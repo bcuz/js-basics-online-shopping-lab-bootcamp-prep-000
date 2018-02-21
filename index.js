@@ -32,7 +32,7 @@ function viewCart() {
      if (cart.length === 1) {
       //
       var key = Object.keys(cart[i])[0]
-      string += `${Object.keys(cart[0])[0]} at $${cart[i][key}.`
+      string += `${key} at $${cart[i][key}.`
       // console.log(`${Object.keys(cart[0])[0]} at $${cart[0][Object.keys(cart[0])[0]]}.`)
     } else if (cart.length === 2) {
       // console.log(`In your cart, you have ${key} at $${cart[i][key]}.`)
