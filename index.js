@@ -33,7 +33,6 @@ function viewCart() {
       //
       var key = Object.keys(cart[i])[0]
       string += `${key} at $${cart[i][key]}.`
-      // console.log(`${Object.keys(cart[0])[0]} at $${cart[0][Object.keys(cart[0])[0]]}.`)
     } else if (cart.length === 2) {
       var key = Object.keys(cart[i])[0]
 
