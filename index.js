@@ -33,6 +33,7 @@ function viewCart() {
      if (cart.length === 1) {
       console.log(`In your cart, you have ${key} at $${cart[i][key]}.`)
     } else if (cart.length === 2) {
+      
       console.log(`In your cart, you have ${key} at $${cart[i][key]}.`)
     } else {
 
